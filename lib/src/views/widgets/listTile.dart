@@ -13,6 +13,7 @@ class listTile extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 3),
       child: Column(
         children: [
+
           ListTile(
             leading: Icon(
               icon,
@@ -21,6 +22,7 @@ class listTile extends StatelessWidget {
             ),
             title: Text(value!),
           ),
+
           Divider(
             thickness: 2,
           )
